@@ -1,0 +1,26 @@
+﻿このサービス会員の性別・年代毎の人数を算出してください。
+
+SELECT
+  gender
+ ,(age/10)*10 AS Age_Group
+ ,COUNT(gender) AS gender_cnt
+FROM
+  users
+GROUP BY
+  gender
+ ,--age
+--ageのみだと0~9までの余りの分だけcntが出力される（10代が9個、20代が9個、、）なぜ？
+--そもそもageはgroupbyで使っていないので間違い、(age/10)*10を使っているのでそれをSELECTに
+  (age/10)*10
+--こうするとうまく出力される10代1つ　20代1つ
+--→理由
+【補足事項】
+・GROUP BYには、別名を指定できない。
+・GROUP BYには、式を指定することができる
+
+貼り付け元  <http://blog.livedoor.jp/akf0/archives/51064573.html> 
+
+ORDER BY
+  gender
+ ,age
+;
