@@ -1,0 +1,23 @@
+1．まずは5回エンター　［　　］の中がデフォルト
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Client Encoding [SJIS]:
+ユーザー postgres のパスワード:
+psql (10.4)
+"help" でヘルプを表示します。
+
+postgres=# SELECT 1;
+ ?column?
+----------
+        1
+(1 行)
+
+
+postgres=#
+
+データベースを作成した場合は
+Database [postgres]:　
+の後にデータベース名を指定する
+Database [postgres]:　shop
