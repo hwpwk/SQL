@@ -1,0 +1,14 @@
+﻿-- WHERE句では列別名が使用できない
+SELECT 
+  employee_id as ID
+ ,user_name as Name
+ ,dept_cd as Dept
+FROM 
+  emp_list
+WHERE
+  ID = ‘100’;
+-- このように、WHERE句で列別名であるIDを使用すると、エラーとなる
+-- なぜならばSQLが実行される順序は以下のようになっているため
+-- FROM → WHERE → GROUPBY → HAVING → SELECT → ORDERBY
+-- つまり、SELECT句よりWHERE句の内容が先に評価されるためWHERE句には列別名を使用することができない
+--よってWHERE句には列名であるemployee_idを使用しなければならない
