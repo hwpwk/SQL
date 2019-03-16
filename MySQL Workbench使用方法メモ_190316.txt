@@ -1,0 +1,5 @@
+﻿MySQL Workbench使用方法
+
+・最初にDBを選択する
+ -use [DB名];
+ -ex)use mydb;
