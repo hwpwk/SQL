@@ -1,0 +1,15 @@
+﻿-- idが1か2か3か4のレコードを取得
+
+SELECT
+ 
+  *
+
+FROM
+
+  products
+
+WHERE
+
+  id in (1, 2, 3, 4)
+
+;
