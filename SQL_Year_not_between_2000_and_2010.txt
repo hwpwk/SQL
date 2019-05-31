@@ -1,0 +1,13 @@
+SELECT
+
+  *
+
+FROM
+  movies
+
+WHERE
+ 
+  Year not between 2000 and 
+2010
+
+;
