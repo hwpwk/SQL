@@ -1,0 +1,8 @@
+-- idが1か2か3以外の行を取得
+select
+  *
+from
+  products
+where
+  id not in (1,2,3)
+;
