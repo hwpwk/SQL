@@ -1,0 +1,7 @@
+--usersテーブルの行数を確認
+SELECT
+  COUNT(*)
+FROM
+  users
+;
+
