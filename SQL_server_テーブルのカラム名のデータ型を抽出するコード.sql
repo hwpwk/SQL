@@ -4,5 +4,5 @@
 FROM
   sys.columns
 WHERE
-  object_id = object_id('[raw].[2016_6_30会社別精算表_1]')
+  object_id = object_id('[raw].[20160630会社別精算表]')
 ;
