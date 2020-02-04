@@ -1,6 +1,6 @@
--- �w��f�[�^�x�[�X���ɍ쐬�����e�[�u���̖��̂ƃe�[�u���쐬�����擾����
--- �Q�l�Fhttps://qiita.com/qsuke92/items/51a85a58ac91782ee528
-USE [20018_��ѓ��H]
+-- 指定データベース内に作成したテーブルの名称とテーブル作成日を取得する
+-- 参考：https://qiita.com/qsuke92/items/51a85a58ac91782ee528
+USE [データベース名]
 GO
 
 SELECT
