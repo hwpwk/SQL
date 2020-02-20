@@ -1,26 +1,26 @@
 
 /*
-‘å•¶ŽšA¬•¶Žš‚ð‹æ•Ê‚µ‚ÄŠe’PŒê‚Ì‹àŠz‡Œv‚ðŽZo
+(SQLServer2012)å¤§æ–‡å­—ã€å°æ–‡å­—ã‚’åŒºåˆ¥ã—ã¦å„å˜èªžã®é‡‘é¡åˆè¨ˆã‚’ç®—å‡º
 
-‰º‹LAƒf[ƒ^ƒx[ƒX‚ÌƒfƒtƒHƒ‹ƒg‚ÌÆ‡‡˜‚ðŠm”F‚µ‚ÄuJapanese_CI_ASv‚Æ•\Ž¦‚³‚ê‚ê‚Î‘å•¶ŽšA¬•¶Žš‚Í‹æ•Ê‚¹‚¸‚ÉWŒv‚µ‚Ä‚µ‚Ü‚¤
+ä¸‹è¨˜ã€ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ç…§åˆé †åºã‚’ç¢ºèªã—ã¦ã€ŒJapanese_CI_ASã€ã¨è¡¨ç¤ºã•ã‚Œã‚Œã°å¤§æ–‡å­—ã€å°æ–‡å­—ã¯åŒºåˆ¥ã›ãšã«é›†è¨ˆã—ã¦ã—ã¾ã†
 SELECT SERVERPROPERTY('collation')
-‘å•¶ŽšA¬•¶Žš‚ð‹æ•Ê‚µ‚ÄWŒv‚·‚é‚É‚ÍCOLLATE ‹å‚ðŽg—p‚·‚é•K—v‚ª‚ ‚é
+å¤§æ–‡å­—ã€å°æ–‡å­—ã‚’åŒºåˆ¥ã—ã¦é›†è¨ˆã™ã‚‹ã«ã¯COLLATE å¥ã‚’ä½¿ç”¨ã™ã‚‹å¿…è¦ãŒã‚ã‚‹
 
 CI
-‘å•¶ŽšA¬•¶Žš‚ð‹æ•Ê‚µ‚È‚¢B‘SŠpƒAƒ‹ƒtƒ@ƒxƒbƒg‚Ì‘å•¶ŽšA¬•¶Žš‚à‹æ•Ê‚µ‚È‚¢
+å¤§æ–‡å­—ã€å°æ–‡å­—ã‚’åŒºåˆ¥ã—ãªã„ã€‚å…¨è§’ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã®å¤§æ–‡å­—ã€å°æ–‡å­—ã‚‚åŒºåˆ¥ã—ãªã„
 CS
-‘å•¶ŽšA¬•¶Žš‚ð‹æ•Ê‚·‚éB‘SŠpƒAƒ‹ƒtƒ@ƒxƒbƒg‚Ì‘å•¶ŽšA¬•¶Žš‚à‹æ•Ê‚·‚é
+å¤§æ–‡å­—ã€å°æ–‡å­—ã‚’åŒºåˆ¥ã™ã‚‹ã€‚å…¨è§’ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã®å¤§æ–‡å­—ã€å°æ–‡å­—ã‚‚åŒºåˆ¥ã™ã‚‹
 AI
-ƒAƒNƒZƒ“ƒgA‘÷‰¹A”j—ô‰¹‚ð‹æ•Ê‚µ‚È‚¢B
+ã‚¢ã‚¯ã‚»ãƒ³ãƒˆã€æ¿éŸ³ã€ç ´è£‚éŸ³ã‚’åŒºåˆ¥ã—ãªã„ã€‚
 AS
-ƒAƒNƒZƒ“ƒgA‘÷‰¹A”j—ô‰¹‚ð‹æ•Ê‚·‚éB
+ã‚¢ã‚¯ã‚»ãƒ³ãƒˆã€æ¿éŸ³ã€ç ´è£‚éŸ³ã‚’åŒºåˆ¥ã™ã‚‹ã€‚
 KS
-‚Ð‚ç‚ª‚È‚ÆƒJƒ^ƒJƒi‚ð‹æ•Ê‚·‚éB”¼Šp‚Å‚à‹æ•Ê‚·‚éB
+ã²ã‚‰ãŒãªã¨ã‚«ã‚¿ã‚«ãƒŠã‚’åŒºåˆ¥ã™ã‚‹ã€‚åŠè§’ã§ã‚‚åŒºåˆ¥ã™ã‚‹ã€‚
 WS
-•¶Žš•‚ð‹æ•Ê‚·‚éB‚Â‚Ü‚è‘SŠpA”¼Šp‚ð‹æ•Ê‚·‚éB
+æ–‡å­—å¹…ã‚’åŒºåˆ¥ã™ã‚‹ã€‚ã¤ã¾ã‚Šå…¨è§’ã€åŠè§’ã‚’åŒºåˆ¥ã™ã‚‹ã€‚
 
 
-ŽQlURL(usqlserver select Æ‡‡˜ Žw’èv‚ÅŒŸõ)
+å‚è€ƒURL(ã€Œsqlserver select ç…§åˆé †åº æŒ‡å®šã€ã§æ¤œç´¢)
 https://qa.atmarkit.co.jp/q/439
 https://culage.hatenablog.com/entry/20170831/1504105200
 https://www.projectgroup.info/tips/SQLServer/MSSQL_00000005.html
@@ -32,15 +32,15 @@ USE [database_name]
 GO
 
 SELECT SERVERPROPERTY('collation')
---¨Japanese_CI_AS
+--â†’Japanese_CI_AS
 
 SELECT 
-    [’PˆÊ] COLLATE Japanese_CS_AS_KS_WS AS [’PˆÊ]
-    ,SUM([‹àŠz]) AS [‹àŠz‡Œv]
+    [å˜ä½] COLLATE Japanese_CS_AS_KS_WS AS [å˜ä½]
+    ,SUM([é‡‘é¡]) AS [é‡‘é¡åˆè¨ˆ]
 FROM 
-    [dbo].[‚Ü‚Æ‚ß_20180401]
+    [dbo].[ã¾ã¨ã‚_20180401]
 GROUP BY
-    [’PˆÊ] COLLATE Japanese_CS_AS_KS_WS
+    [å˜ä½] COLLATE Japanese_CS_AS_KS_WS
 ORDER BY  
-    [‹àŠz‡Œv] DESC
+    [é‡‘é¡åˆè¨ˆ] DESC
 
