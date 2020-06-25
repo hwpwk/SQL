@@ -9,5 +9,5 @@ SELECT
     -- 決算月に合わせた会計年度を抽出
     ,YEAR(DATEADD(MONTH, -(@closing_month%12) ,[決算日]) ) AS [会計年度]
 FROM
-    [Demo_FS].[ana].[連結財務諸表_PIVOT]
+    [Demo]
 ;
