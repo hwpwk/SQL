@@ -1,0 +1,1 @@
+WHERE [ŒŽ––“ú] = (SELECT MAX([ŒŽ––“ú]) AS [’¼‹ßŒŽŒŽ––“ú] FROM tbl WHERE SUBSTRING(CAST([ŒŽ––“ú] AS NVARCHAR),6,2) IN ('03','06','09','12') ) --ŠeŽl”¼Šú‚ÌŒˆŽZŒŽ
