@@ -1,0 +1,4 @@
+﻿# Error converting data type nvarchar to numeric.
+→NVARCHAR型でインポートしてFLOAT型にしたものをNUMERIC型に変換する
+
+SUM(CAST(CAST([amount] AS FLOAT) AS NUMERIC(38,5))) AS [amount(NUMERIC)]       
