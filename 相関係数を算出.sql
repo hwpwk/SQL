@@ -21,7 +21,7 @@ WITH raw_tbl AS(
 		    raw_tbl
 )
 --  各行の[価格(円)]と[date_int]の値から[id],[品目]毎の[価格(円)]と[date_int]の平均値を差し引いて偏差を算出
-WITH dev AS(
+, dev AS(
 		SELECT
 				[平均_価格(円)]
 				,[標準偏差_価格(円)]
